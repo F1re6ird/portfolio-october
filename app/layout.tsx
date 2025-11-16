@@ -7,7 +7,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className='bg-brand border-x-[1px] border-brand-dark border-brand-dark/20 md:mx-24 lg:mx-52'>{children}</body>
     </html>
   )
 }

@@ -1,0 +1,60 @@
+import { project } from "@/app/type"
+
+export const skillSet = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next js",
+    "Tailwind CSS",
+    "Git",
+    "GitHub",
+    "Figma",
+    "Express",
+    "MongoDB",
+    "Node.js",
+    "PostgreSQL",
+    "WebFlow",
+    "Framer",
+    "Python",
+]
+
+export const projects: project[] = [
+    {
+        name: "cara",
+        description: "A portfolio built with Next.js and Tailwind CSS.",
+        longDescription: "This project is a modern web application built using Next.js for its powerful hybrid rendering capabilities, Tailwind CSS for rapid UI development, and Node.js for efficient server-side handling. The goal of this project is to showcase a seamless integration between frontend and backend technologies while maintaining performance, scalability, and a clean developer experience.",
+        liveLink: "https://porfolio-october.vercel.app/",
+        githubLink: "https://github.com/saifullahkhan/porfolio-october",
+        image: ["/dummypage.jpg", "/dummypage.jpg", "/dummypage.jpg"],
+        technologies: ["Next js", "TypeScript", "Node.js", "Tailwind CSS"],
+    },
+    {
+        name: "Natalie",
+        description: "A portfolio built with Next.js and Tailwind CSS.",
+        longDescription: "This project is a modern web application built using Next.js for its powerful hybrid rendering capabilities, Tailwind CSS for rapid UI development, and Node.js for efficient server-side handling. The goal of this project is to showcase a seamless integration between frontend and backend technologies while maintaining performance, scalability, and a clean developer experience.",
+        liveLink: "https://porfolio-october.vercel.app/",
+        githubLink: "https://github.com/saifullahkhan/porfolio-october",
+        image: ["/dummypage.jpg", "/dummypage.jpg", "/dummypage.jpg"],
+        technologies: ["Next js", "TypeScript", "Node.js", "Tailwind CSS"],
+    },
+    {
+        name: "Zulayha",
+        description: "A portfolio built with Next.js and Tailwind CSS.",
+        longDescription: "This project is a modern web application built using Next.js for its powerful hybrid rendering capabilities, Tailwind CSS for rapid UI development, and Node.js for efficient server-side handling. The goal of this project is to showcase a seamless integration between frontend and backend technologies while maintaining performance, scalability, and a clean developer experience.",
+        liveLink: "https://porfolio-october.vercel.app/",
+        githubLink: "https://github.com/saifullahkhan/porfolio-october",
+        image: ["/dummypage.jpg", "/dummypage.jpg", "/dummypage.jpg"],
+        technologies: ["Next js", "TypeScript", "Node.js", "Tailwind CSS"],
+    },
+    {
+        name: "Mary",
+        description: "A portfolio built with Next.js and Tailwind CSS.",
+        longDescription: "This project is a modern web application built using Next.js for its powerful hybrid rendering capabilities, Tailwind CSS for rapid UI development, and Node.js for efficient server-side handling. The goal of this project is to showcase a seamless integration between frontend and backend technologies while maintaining performance, scalability, and a clean developer experience.",
+        liveLink: "https://porfolio-october.vercel.app/",
+        githubLink: "https://github.com/saifullahkhan/porfolio-october",
+        image: ["/dummypage.jpg", "/dummypage.jpg", "/dummypage.jpg"],
+        technologies: ["Next js", "TypeScript", "Node.js", "Tailwind CSS"],
+    },
+]
